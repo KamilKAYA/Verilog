@@ -21,5 +21,5 @@
 
 
 module mux4x1_without_reg(input [7:0]a, input [7:0]b, input [7:0]c, input [7:0]d, input [1:0]select, output [7:0]q);
-assign q= (select==2'b00) ? a: (select=='b01) ? b: (select==2'b10) ? c: (select==2'b11) ? d: 0;
+assign q= (select==2'b00) ? a: (select==2'b01) ? b: (select==2'b10) ? c: (select==2'b11) ? d: 0;
 endmodule
